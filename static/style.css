@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    margin: 10px;
+}

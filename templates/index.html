@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+
+</head>
+<body>
+    <h1>Real time face detection</h1>
+    <div>
+    <img id="video-stream" src="{{ url_for('video') }}" data-src="{{ url_for('video') }}" width="50%">
+  </div>
+     <div>
+    <button id="btn" onclick="toggleStreaming()">Stop Streaming</button>
+  </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
